@@ -1,0 +1,7 @@
+transaction_type,total_transactions,fraud_cases,fraud_rate_pct
+P2M,7014,280,3.99
+Subscription,1381,55,3.98
+P2P,4881,182,3.73
+Recharge,2063,77,3.73
+Bill Payment,3033,112,3.69
+EMI,1628,57,3.5

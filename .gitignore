@@ -1,0 +1,29 @@
+
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Jupyter files
+.ipynb_checkpoints/
+
+# IDE settings
+.vscode/
+
+# Environment variables and secrets
+.env
+
+# Temporary files
+*.log
+.DS_Store
+
+# Model backup files
+*.bak
+# Exclude trained model and test ID files
+reports/fraud_detection_model.pkl
+reports/ml_test_ids.csv
+reports/rule_based_test_ids.csv

@@ -1,0 +1,3 @@
+model,test_transactions,true_positives,false_positives,false_negatives,true_negatives,precision,recall,f1_score
+Rule-Based,4000,56,545,97,3302,0.09317803660565724,0.3660130718954248,0.14854111405835543
+Logistic Regression,4000,48,381,105,3466,0.11188811188811189,0.3137254901960784,0.16494845360824742

@@ -1,0 +1,6 @@
+group,transactions,night_transactions_pct,new_device_pct,ip_mismatch_pct,avg_amount
+Entire Test Set,4000,32.28,5.92,3.22,897.5
+False Positives,381,58.01,33.86,15.49,1133.54
+False Negatives,105,41.9,4.76,5.71,958.56
+True Positives,48,62.5,43.75,16.67,936.32
+True Negatives,3466,28.74,2.37,1.62,869.16

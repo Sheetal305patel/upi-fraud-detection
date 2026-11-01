@@ -1,0 +1,2 @@
+model,dataset,threshold,test_transactions,true_positives,false_positives,false_negatives,true_negatives,precision,recall,f1_score
+Logistic Regression,Test,0.7,4000,48,381,105,3466,0.11188811188811189,0.3137254901960784,0.16494845360824742

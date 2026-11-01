@@ -1,0 +1,6 @@
+amount_range,total_transactions,fraud_cases,fraud_rate_pct
+Below 500,9354,355,3.8
+500-1999,8753,322,3.68
+2000-4999,1668,72,4.32
+5000-9999,202,13,6.44
+10000+,23,1,4.35
