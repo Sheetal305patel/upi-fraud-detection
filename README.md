@@ -138,43 +138,60 @@ This comparison helped me understand that detecting more fraud cases and reducin
 
 ## Project Structure
 
-```text
 UPI Fraud Detection/
 │
 ├── data/
+│   ├── data_dictionary.csv
+│   ├── fraud_labels.csv
+│   ├── merchants.csv
 │   ├── transactions.csv
 │   ├── transactions_cleaned.csv
-│   ├── users.csv
-│   ├── merchants.csv
-│   ├── fraud_labels.csv
-│   └── data_dictionary.csv
+│   └── users.csv
 │
 ├── src/
 │   ├── audit_data.py
 │   ├── audit_data_leakage.py
+│   ├── audit_fraud_labels.py
+│   ├── audit_fraud_signals.py
 │   ├── fraud_pattern_analysis.py
 │   ├── evaluate_rules.py
 │   ├── train_model.py
 │   ├── compare_models.py
-│   └── other analysis scripts
+│   ├── analyze_model_errors.py
+│   ├── analyze_error_patterns.py
+│   └── compare_errors_with_test_set.py
 │
 ├── sql/
 │   └── fraud_analysis.sql
 │
 ├── reports/
-│   ├── fraud_by_transaction_type.csv
-│   ├── fraud_by_user_kyc_status.csv
-│   ├── fraud_night_vs_day.csv
-│   ├── fraud_by_device_ip_flags.csv
-│   ├── fraud_by_failed_attempts.csv
-│   ├── fraud_by_amount_range.csv
+│   ├── model_evaluation_report.md
+│   ├── sql_analysis_report.md
+│   ├── README.md
 │   ├── model_comparison.csv
 │   ├── ml_final_test_metrics.csv
-│   ├── model_evaluation_report.md
-│   └── sql_analysis_report.md
+│   ├── ml_test_error_analysis.csv
+│   ├── model_error_pattern_summary.csv
+│   ├── confusion_matrix_threshold_0.5.csv
+│   ├── confusion_matrix_threshold_0.7.csv
+│   ├── error_patterns_vs_test_set.csv
+│   ├── fraud_amount_vs_user_avg.csv
+│   ├── fraud_by_amount_range.csv
+│   ├── fraud_by_device_ip_flags.csv
+│   ├── fraud_by_device_type.csv
+│   ├── fraud_by_failed_attempts.csv
+│   ├── fraud_by_payment_app.csv
+│   ├── fraud_by_receiver_type.csv
+│   ├── fraud_by_transaction_type.csv
+│   ├── fraud_by_user_city_tier.csv
+│   ├── fraud_by_user_kyc_status.csv
+│   ├── fraud_night_vs_day.csv
+│   └── fraud_user_behavior.csv
 │
-└── README.md
-```
+├── .gitignore
+├── README.md
+├── requirements.txt
+└── model_threshold_metrics.csv
 
 ## Limitations and Future Improvements
 
